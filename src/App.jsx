@@ -14,11 +14,11 @@ function App() {
       <CTA />
       <footer className="bg-black border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-slate-400">© {new Date().getFullYear()} VoltCore Energy. All rights reserved.</p>
+          <p className="text-sm text-slate-400">© {new Date().getFullYear()} Thiel‑Energy. Alle Rechte vorbehalten.</p>
           <div className="flex items-center gap-4 text-sm text-slate-400">
-            <a href="#" className="hover:text-white">Privacy</a>
+            <a href="#" className="hover:text-white">Datenschutz</a>
             <span className="opacity-30">•</span>
-            <a href="#" className="hover:text-white">Terms</a>
+            <a href="#" className="hover:text-white">Impressum</a>
           </div>
         </div>
       </footer>

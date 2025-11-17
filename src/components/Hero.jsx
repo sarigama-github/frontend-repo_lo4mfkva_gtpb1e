@@ -11,20 +11,20 @@ export default function Hero() {
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 text-red-500 font-medium bg-red-500/10 border border-red-500/30 rounded-full px-3 py-1">
             <span className="w-2 h-2 rounded-full bg-red-500"></span>
-            High‑density power, elegantly controlled
+            Hochdichte Energie, präzise gesteuert
           </span>
           <h1 className="mt-6 text-4xl md:text-6xl font-semibold tracking-tight text-white">
-            Energy and Power Storage, Reimagined
+            Energiespeicher neu gedacht
           </h1>
           <p className="mt-5 text-lg md:text-xl text-slate-300">
-            Modular battery arrays, ultra‑fast discharge control, and predictive optimization for resilient micro‑grids and data‑centric operations.
+            Modulare Batteriesysteme, ultraschnelle Leistungsregelung und prädiktive Optimierung für resiliente Microgrids und kritische Infrastruktur.
           </p>
           <div className="mt-8 flex items-center gap-3">
             <a href="#contact" className="inline-flex items-center px-5 py-3 rounded-xl bg-red-600 text-white font-medium shadow-[0_0_25px_rgba(239,68,68,0.45)] hover:shadow-[0_0_35px_rgba(239,68,68,0.65)] transition">
-              Get started
+              Loslegen
             </a>
             <a href="#technology" className="inline-flex items-center px-5 py-3 rounded-xl border border-white/10 text-white font-medium hover:bg-white/5">
-              Explore technology
+              Technologie erkunden
             </a>
           </div>
         </div>

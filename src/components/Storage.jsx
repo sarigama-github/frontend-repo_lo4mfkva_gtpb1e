@@ -3,21 +3,21 @@ import { Server, Battery, Gauge } from "lucide-react";
 const items = [
   {
     icon: Battery,
-    title: "Rack Batteries",
-    desc: "High‑density 48V racks for data centers and micro‑grids.",
-    spec: "Up to 3.2MWh per container",
+    title: "Rack-Batterien",
+    desc: "Hochdichte 48V-Racks für Rechenzentren und Microgrids.",
+    spec: "Bis zu 3,2 MWh pro Container",
   },
   {
     icon: Server,
     title: "Energy Server",
-    desc: "All‑in‑one inverter + BMS with seamless islanding.",
-    spec: "98.5% round‑trip efficiency",
+    desc: "All-in-One Wechselrichter + BMS mit nahtlosem Inselbetrieb.",
+    spec: "98,5% Round-Trip-Wirkungsgrad",
   },
   {
     icon: Gauge,
-    title: "Fast Discharge",
-    desc: "Millisecond response for peak‑shaving and backup power.",
-    spec: "<10ms switchover",
+    title: "Schnelle Entladung",
+    desc: "Millisekundenschnelle Reaktion für Peak-Shaving und Notstrom.",
+    spec: "<10 ms Umschaltzeit",
   },
 ];
 
@@ -26,8 +26,8 @@ export default function Storage() {
     <section id="storage" className="bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-semibold text-white tracking-tight">Power storage built for impact</h2>
-          <p className="mt-3 text-slate-300">Modular systems that evolve with your load profile and business needs.</p>
+          <h2 className="text-3xl md:text-4xl font-semibold text-white tracking-tight">Energiespeicher mit Wirkung</h2>
+          <p className="mt-3 text-slate-300">Modulare Systeme, die sich an Ihr Lastprofil und Ihr Wachstum anpassen.</p>
         </div>
 
         <div className="mt-10 grid md:grid-cols-3 gap-6">

@@ -5,10 +5,10 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const navItems = [
-    { label: "Technology", href: "#technology" },
-    { label: "Storage", href: "#storage" },
-    { label: "Why Us", href: "#why-us" },
-    { label: "Contact", href: "#contact" },
+    { label: "Technologie", href: "#technology" },
+    { label: "Speicher", href: "#storage" },
+    { label: "Warum wir", href: "#why-us" },
+    { label: "Kontakt", href: "#contact" },
   ];
 
   return (
@@ -19,7 +19,7 @@ export default function Navbar() {
             <span className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-red-600 text-white shadow-[0_0_20px_rgba(239,68,68,0.35)]">
               <Zap className="w-5 h-5" />
             </span>
-            <span className="font-semibold text-white tracking-tight">VoltCore Energy</span>
+            <span className="font-semibold text-white tracking-tight">Thiel‑Energy</span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -32,14 +32,14 @@ export default function Navbar() {
               href="#contact"
               className="inline-flex items-center px-4 py-2 rounded-lg bg-red-600 text-white text-sm font-medium shadow-[0_0_20px_rgba(239,68,68,0.35)] hover:shadow-[0_0_30px_rgba(239,68,68,0.55)] transition-shadow"
             >
-              Get a demo
+              Demo anfordern
             </a>
           </nav>
 
           <button
             className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg border border-white/10 hover:bg-white/5"
             onClick={() => setOpen((v) => !v)}
-            aria-label="Toggle menu"
+            aria-label="Menü umschalten"
           >
             <Menu className="w-5 h-5 text-white" />
           </button>
@@ -63,7 +63,7 @@ export default function Navbar() {
                 className="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-red-600 text-white text-sm font-medium shadow-[0_0_20px_rgba(239,68,68,0.35)]"
                 onClick={() => setOpen(false)}
               >
-                Get a demo
+                Demo anfordern
               </a>
             </div>
           </div>
